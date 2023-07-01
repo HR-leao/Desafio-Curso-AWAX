@@ -469,6 +469,7 @@ CSS DE ÁREAS ESPECÍFICAS
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: #f7f5f7;
 }
 
 .happy-clients .section-team--role {
@@ -507,6 +508,7 @@ CSS DE ÁREAS ESPECÍFICAS
 
 .happy-clients .pointers-hapy {
     display: flex;
+    margin-top: 35px;
 }
 .pointers-hapy div{
     width: 15px;
@@ -525,3 +527,22 @@ CSS DE ÁREAS ESPECÍFICAS
 
 
 
+.happy-clients .empresas {
+    background-color: #fff;
+    display: flex;
+    border-top:  2px solid #EEE;
+    border-bottom: 2px solid #EEE;
+    width: 100vw;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    padding: 50px;
+}
+
+.happy-clients .empresas div{
+    margin-right: 30px;
+    
+}
+
+.section-price {
+    background-color: #f7f5f7;
+}
