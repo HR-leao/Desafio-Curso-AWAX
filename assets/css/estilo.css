@@ -458,3 +458,70 @@ CSS DE ÁREAS ESPECÍFICAS
 .section-team--social a:hover {     
     background-color: #b28756;
 }
+
+
+
+
+
+
+
+.happy-clients {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.happy-clients .section-team--role {
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #CCC;
+    font-size: 12px;
+}
+
+.happy-clients .section-team--name,
+.happy-clients .h33 {
+    text-transform: none;
+}
+
+.happy-clients .h33 {
+    font-size: 14px;
+    color: #949393;
+    font-weight: 400;
+}
+
+
+.happy-clients p{
+    text-align: center;
+    display: block;
+    max-width: 640px;
+}
+
+.happy-clients .aspas {
+    margin-top: 25px;
+    margin-bottom: 13px;
+}
+
+.happy-clients .slidearea {
+    margin-top: 30px;
+}
+
+.happy-clients .pointers-hapy {
+    display: flex;
+}
+.pointers-hapy div{
+    width: 15px;
+    height: 15px;
+    border: 2px solid #b28756;
+    border-radius: 8px;
+    margin-left: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+
+}
+.pointers-hapy .active{
+    background-color: #b28756;
+}
+
+
+
+
