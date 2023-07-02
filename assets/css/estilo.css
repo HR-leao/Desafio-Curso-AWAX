@@ -716,3 +716,19 @@ CSS DE ÁREAS ESPECÍFICAS
    font-size: 15px;
     font-weight: 600;
 }
+
+.redes-sociais {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.redes {
+    display: flex;
+    align-items: center;
+
+}
+.areasociais img {
+    width: 40px;
+    height: 40px;
+}
