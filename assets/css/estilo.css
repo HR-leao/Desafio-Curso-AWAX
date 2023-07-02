@@ -518,7 +518,7 @@ CSS DE ÁREAS ESPECÍFICAS
     margin-left: 5px;
     margin-right: 5px;
     cursor: pointer;
-
+    margin-bottom: 60px;
 }
 .pointers-hapy .active{
     background-color: #b28756;
@@ -545,4 +545,174 @@ CSS DE ÁREAS ESPECÍFICAS
 
 .section-price {
     background-color: #f7f5f7;
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+    align-items: center;
+    padding-bottom: 50px;
+    border-bottom: 2px solid #CCC;
+}
+
+
+.section-price .section-team--role{
+    font-size: 12px;
+    font-weight: 600;
+    color: #CCC;
+}
+
+.frebt {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 1140px;
+    margin-top: 35px;
+
+}
+
+.frebt .section-team--name {
+    font-size: 12px;
+    margin-top: 10px;
+    margin-bottom: -12px;
+}
+
+.frebt .valor {
+    margin: 0px;
+    font-size: 20px;
+}
+
+.frebt .section-team--role {
+    font-weight: normal;
+    color: #555;
+    
+}
+
+.frebt div {
+    margin-right: 20px;
+    background-color: #fff;
+    width: 280px;
+    height: auto;
+    text-align: center;
+    padding-bottom: 10px;
+    
+}
+
+
+.price-conteudo ul li {
+    list-style:none;
+    font-size: 11px;
+    color: #000;
+    font-weight: 600;
+    padding: 2px;
+    text-transform: none;
+}
+
+.price-conteudo .preto {
+    background-color: #000;
+    
+}
+
+
+
+
+
+
+
+.section-pemium {
+    text-align: center;
+
+}
+
+.textos-premium {
+    text-align: start;
+
+}
+
+.conteudo-premium {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 190px;
+}
+.textos-premium {
+    margin-left: 20px;
+}
+
+.section-team--name img{
+    width: 20px;
+    margin-right: 20px;
+
+}
+
+.texto-livros {
+    margin-left: 41px;
+    font-weight: 400;
+    color: #999;
+}
+.img-premium {
+    margin-top: 40px;
+}
+.textos-premium ul li {
+    list-style: none;
+
+}
+
+.borda-botton-area-primium {
+    max-width: 1140px;
+    margin-top: 40px;
+    border-bottom: 2px solid #CCC;
+    margin-bottom: 90px;
+    margin-left: 100px;
+    
+}
+
+
+.botao-premium .pointers-hapy {
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+
+.section-desc .sub {
+    color: #ccc;
+}
+
+
+.numeros-facts {
+    display: flex;
+    color: #fff;
+    justify-content: space-evenly;
+}
+
+.numero-laranja {
+    color: #b28756;
+    font-weight: bold;
+    font-size: 60px;
+}
+
+
+.barrinha {
+    border: 1px solid #b28756;
+    width: 10px;
+}
+
+.alinha-facts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
+
+.alinha-facts div{
+    margin-bottom: 9px;
+
+}
+
+.sub-facts {
+    color:#949393;
+   font-size: 15px;
+    font-weight: 600;
 }
