@@ -718,17 +718,53 @@ CSS DE ÁREAS ESPECÍFICAS
 }
 
 .redes-sociais {
+    margin-top: 0px;
     display: flex;
     justify-content: center;
     align-items: center;
-
+    text-align: center;
+    margin-right: 10px;
+    border: 1px solid #CCC;
 }
-.redes {
+
+.redes-sociais  {
+    margin-top: -50px;
+    width: 100vw;
+    height: 90px;
+} 
+
+.redes-sociais div{
+    margin-right: 15px;
+}
+
+.spaco {
+    margin-left: 15px;
+}
+
+
+.areasociais {
     display: flex;
     align-items: center;
+}
+
+.redes div{
+    margin-right: 10px;
+    margin-left: 10px;
 
 }
-.areasociais img {
-    width: 40px;
-    height: 40px;
+#googleplus {
+ background-color: #b82636;
+ width: 40px;
+ height: 40px;
+ padding: 10px;
+ border-radius: 30px;
 }
+#twitter,
+#linkedin,
+#facebook,
+#pinterest  {
+    width: 50px;
+    height: 50px;
+}
+
+
