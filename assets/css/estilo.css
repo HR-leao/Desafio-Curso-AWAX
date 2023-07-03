@@ -733,6 +733,12 @@ CSS DE ÁREAS ESPECÍFICAS
     height: 90px;
 } 
 
+.areasociais {
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #CCC;
+}
+
 .redes-sociais div{
     margin-right: 15px;
 }
@@ -748,27 +754,42 @@ CSS DE ÁREAS ESPECÍFICAS
 }
 
 .redes div{
-    margin-right: 10px;
-    margin-left: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
 
 }
 
 .redes a {
     text-decoration: none;
 }
-#googleplus {
- background-color: #b82636;
- width: 40px;
- height: 40px;
- padding: 10px;
- border-radius: 30px;
-}
-#twitter,
+
 #linkedin,
-#facebook,
-#pinterest  {
-    width: 50px;
-    height: 50px;
+#facebook, 
+#pinterest,
+#twitter {
+    padding: 15px;
+    width: 75px;
+    height:75px;
+}
+#googleplus {
+    width: 65px;
+    height:65px;
+    padding: 15px;
 }
 
+
+
+
+
+
+
+
+
+
+.area-contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
 
