@@ -791,5 +791,50 @@ CSS DE ÁREAS ESPECÍFICAS
     flex-direction: column;
     align-items: center;
     text-align: center;
+    
+}
+
+.nameima input {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 3px solid #c7c7c7;
+    padding-bottom: 10px;
+    width: 350px;
+    
+}
+
+ .message input {
+    margin-top: 100px;
+    width: 725px;
+}
+
+
+.object input {
+    width: 725px;
+    margin-top: 35px;
+}
+.nameima input::placeholder {
+    color: #CCC;
+    text-transform: uppercase;
+    
+}
+
+.nameima input:focus {
+    outline: none;
+    color: #333;
+
+}
+
+.nome-email {
+    display: flex;
+    
+}
+ .primeira div:nth-child(1) {
+    margin-right: 25px;
+}
+
+.area-contato div:nth-child(3) {
+    margin-top: 10px;
 }
 
