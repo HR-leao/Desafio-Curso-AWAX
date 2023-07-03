@@ -752,6 +752,10 @@ CSS DE ÁREAS ESPECÍFICAS
     margin-left: 10px;
 
 }
+
+.redes a {
+    text-decoration: none;
+}
 #googleplus {
  background-color: #b82636;
  width: 40px;
