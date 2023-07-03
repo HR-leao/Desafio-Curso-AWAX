@@ -798,7 +798,7 @@ CSS DE ÁREAS ESPECÍFICAS
     border-top: none;
     border-left: none;
     border-right: none;
-    border-bottom: 3px solid #c7c7c7;
+    border-bottom: 2px solid #b2b2b2;
     padding-bottom: 10px;
     width: 350px;
     
@@ -815,7 +815,7 @@ CSS DE ÁREAS ESPECÍFICAS
     margin-top: 35px;
 }
 .nameima input::placeholder {
-    color: #CCC;
+    color: #bebdbe;
     text-transform: uppercase;
     
 }
@@ -838,3 +838,30 @@ CSS DE ÁREAS ESPECÍFICAS
     margin-top: 10px;
 }
 
+
+
+.container-overlay {
+    background-image: url(../../media/maps.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+}
+
+.overlay {
+    width: 100vw;
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.4);
+
+}
+
+.overlay div:first-of-type{
+    margin-left: 180px;
+    margin-top: 40px;
+}
+
+.frent {
+    position: absolute;
+    background-color: green;
+    
+}
