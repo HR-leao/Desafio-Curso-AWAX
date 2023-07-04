@@ -850,18 +850,54 @@ CSS DE ÁREAS ESPECÍFICAS
 
 .overlay {
     width: 100vw;
-    height: 300px;
+    height: 430px;
     background-color: rgba(0, 0, 0, 0.4);
-
+    padding-left: 150px;
 }
 
-.overlay div:first-of-type{
-    margin-left: 180px;
-    margin-top: 40px;
+.container-overlay .overlay:first-of-type{
+    padding-top: 20px;
+    
 }
+
 
 .frent {
     position: absolute;
-    background-color: green;
+    background-color: #FFF;
+    width: 535px;
+    height: 340px;
+    align-items: start;
+    display: flex;
+    text-align: center;
+
+    
+    
+}
+.informacoes  {
+    display: inline-block;
+    padding: 10px;
+
+}
+
+.informacoes div {
+    margin-bottom: 15px;
+}
+
+.correio {
+    background-color: #CCC;
+    height: 40px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+
+    
+}
+
+
+
+.informacoes img {
+    padding: 8px;
+
+    
     
 }
