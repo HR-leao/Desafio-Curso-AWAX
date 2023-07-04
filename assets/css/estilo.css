@@ -734,6 +734,8 @@ CSS DE ÁREAS ESPECÍFICAS
 } 
 
 .areasociais {
+    display: flex;
+    padding: 10px;
     text-transform: uppercase;
     font-weight: 600;
     color: #CCC;
@@ -753,6 +755,17 @@ CSS DE ÁREAS ESPECÍFICAS
     align-items: center;
 }
 
+
+#twitter {
+    width: 25px;
+    height: 25px;
+    padding: 2px;
+    background-color: #33c4f0;
+    border-radius: 30px;
+    margin-right: 10px;
+}
+
+
 .redes div{
     margin-right: 5px;
     margin-left: 5px;
@@ -766,7 +779,7 @@ CSS DE ÁREAS ESPECÍFICAS
 #linkedin,
 #facebook, 
 #pinterest,
-#twitter {
+ {
     padding: 15px;
     width: 75px;
     height:75px;
@@ -776,9 +789,6 @@ CSS DE ÁREAS ESPECÍFICAS
     height:65px;
     padding: 15px;
 }
-
-
-
 
 
 
@@ -866,17 +876,13 @@ CSS DE ÁREAS ESPECÍFICAS
     background-color: #FFF;
     width: 535px;
     height: 340px;
-    align-items: start;
-    display: flex;
-    text-align: center;
+    padding-top: 30px;
 
-    
     
 }
-.informacoes  {
-    display: inline-block;
-    padding: 10px;
-
+.informacoes {
+    display: flex;
+    align-items: center;
 }
 
 .informacoes div {
@@ -889,15 +895,21 @@ CSS DE ÁREAS ESPECÍFICAS
     border-radius: 20px;
     display: flex;
     align-items: center;
-
+    margin-right: 10px;
+    margin-left: 30px;
     
 }
 
 
 
 .informacoes img {
-    padding: 8px;
+    padding: 10px;
 
     
     
+}
+
+.locque img{
+    width: 40px;
+    padding: 10px;
 }
