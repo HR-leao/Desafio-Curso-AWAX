@@ -989,8 +989,9 @@ CSS DE ÁREAS ESPECÍFICAS
 }
 
 .texto-footer {
-    color: #fff;
+    color: #949393;
     flex: 1;
+    margin-left: 40px;
 }
 
 .redes-footer img{
@@ -1041,6 +1042,7 @@ CSS DE ÁREAS ESPECÍFICAS
 .form-footer input:active {
     border: none;
 }
+
 .form-footer input {
    outline: none;
    border-top: none;
@@ -1058,4 +1060,13 @@ CSS DE ÁREAS ESPECÍFICAS
     text-align: center;
     font-size: 15px;
 
+}
+
+.teste {
+    display: flex;
+    flex-direction: column;
+}
+
+#eu {
+    color: #fff;
 }
