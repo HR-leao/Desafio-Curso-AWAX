@@ -964,7 +964,98 @@ CSS DE ÁREAS ESPECÍFICAS
 
 /*ÁREA FOOTER */
 
+.default.dark.footer {
+    width: 100%;
+    max-width: 1140px;
+    padding-top:30px;
+    
+}
+
+
+.container-footer {
+   display: flex;
+   justify-content: space-around;
+   margin: auto;
+
+}
+
+
+.container-footer:first-of-type{
+    margin-left: 100px;
+}
+.redes-footer {
+    display: flex;
+    flex: 1;
+}
+
+.texto-footer {
+    color: #fff;
+    flex: 1;
+}
+
+.redes-footer img{
+    width: 30px;
+    height: 30px;
+    background-color: #373737;
+    padding: 7px;
+    border-radius: 15px;
+    margin-right: 10px;
+    
+}
+
+.bolinha {
+    display: flex;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    background-color: #373737;
+    align-items: center;
+    justify-content: center;
+    border-radius: 60px;
+
+}
+
+.bolinha div {
+    width: 5px;
+    height: 5px;
+    margin-right: 2px;
+    display: flex;
+    border: 1px solid #fff;
+    background-color: #fff;
+    
+    border-radius: 10px;
+
+}
+
+
+.form-footer {
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    flex: 1;
+    background-color: #373737;
+    margin-right: 100px;
+    margin-left: 10px;
+}
+.form-footer input:active {
+    border: none;
+}
+.form-footer input {
+   outline: none;
+   border-top: none;
+   border-left: none;
+   border-right: none;
+   border-bottom:2px solid #CCC;
+   padding: 10px;
+   background-color: #373737;
+
+}
 
 
 
+.form-footer input::placeholder {
+    text-align: center;
+    font-size: 15px;
 
+}
