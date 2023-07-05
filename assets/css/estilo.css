@@ -543,14 +543,23 @@ CSS DE ÁREAS ESPECÍFICAS
     
 }
 
+.titulo-price {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
 .section-price {
     background-color: #f7f5f7;
     display: flex;
     flex-direction: column;
     text-transform: uppercase;
-    align-items: center;
     padding-bottom: 50px;
     border-bottom: 2px solid #CCC;
+    max-width: 1140px;
+    
+   
 }
 
 
@@ -560,14 +569,17 @@ CSS DE ÁREAS ESPECÍFICAS
     color: #CCC;
 }
 
+.frent {
+    margin-right: 10px;
+}
 .frebt {
     display: flex;
-    align-items: center;
-    justify-content: space-around;
-    max-width: 1140px;
-    margin-top: 35px;
-
+    margin-left: 100px;
+    margin-right: 100px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
+
 
 .frebt .section-team--name {
     font-size: 12px;
@@ -587,13 +599,10 @@ CSS DE ÁREAS ESPECÍFICAS
 }
 
 .frebt div {
-    margin-right: 20px;
     background-color: #fff;
-    width: 280px;
-    height: auto;
     text-align: center;
     padding-bottom: 10px;
-    
+    flex: 1;
 }
 
 
@@ -865,38 +874,38 @@ CSS DE ÁREAS ESPECÍFICAS
 
 
 .container-overlay {
-    background-image: url(../../media/maps.jpg);
+    background-image: url(../../assets/images/mapa.jpg);
     background-size: cover;
     background-position: center;
-    position: relative;
 
+   
 }
 
 .overlay {
-    width: 100vw;
-    height: 430px;
     background-color: rgba(0, 0, 0, 0.4);
-    padding-left: 150px;
+    width: 100vw;
+    padding-left: calc(100px);
+    padding-bottom: 30px;
 }
 
 .container-overlay .overlay:first-of-type{
-    padding-top: 20px;
+    padding-top:30px;
     
 }
 
 
 .frentt {
-    position: absolute;
+    
     background-color: #FFF;
-    width: 535px;
-    height: 340px;
     padding-top: 30px;
-
+    padding-right: 10px;
+    width: 50%;
     
 }
 .informacoes {
     display: flex;
     align-items: center;
+
 }
 
 .informacoes div {
