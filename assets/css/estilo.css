@@ -468,8 +468,6 @@ CSS DE ÁREAS ESPECÍFICAS
 
 
 
-
-
 .happy-clients {
     display: flex;
     flex-direction: column;
@@ -1232,4 +1230,36 @@ CSS DE ÁREAS ESPECÍFICAS
         border: 1px solid #CCC;
         width: 80%;
     }
-}
+    .numeros-facts .alinha-facts{
+        margin-bottom: 30px;
+    }
+
+    .cabeca-valores .section-title {
+        font-size: 30px;
+    }
+
+    .cabeca-valores .sub {
+        font-size: 20px;
+    }
+
+    .numeros-facts{
+        flex-direction: column;
+    }
+    .numero-laranja{
+        font-size: 90px;
+    }
+
+    .barrinha {
+        width: 50px;
+    }
+
+    .alinha-facts .section-title {
+        font-size: 18px;
+    }
+    
+    .alinha-facts .sub-facts {
+        font-size: 20px;
+    }
+
+    
+}   
