@@ -1074,3 +1074,11 @@ CSS DE ÁREAS ESPECÍFICAS
 .form-footer .button {
     cursor: pointer;
 }
+
+/*RESPONSIVIDADE MENU*/
+
+@media (min-width:450px ) and (max-width:800px) {
+    nav {
+        display: none;
+    }   
+}
