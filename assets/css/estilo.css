@@ -470,7 +470,6 @@ CSS DE ÁREAS ESPECÍFICAS
 
 
 
-
 .happy-clients {
     display: flex;
     flex-direction: column;
@@ -1160,20 +1159,77 @@ CSS DE ÁREAS ESPECÍFICAS
         
     }
 
+    .happy-clients .section-team--name {
+        font-size: 30px;
+    }
+    .happy-clients .h33 {
+        font-size: 20px;
+    }
+    .happy-clients p{
+        font-size: 18px;
+    }
+
+    .empresas {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .empresas div {
+        margin-bottom: 30px;
+        
+
+    }   
+    .empresas img {
+        width: 150px;
+        box-shadow: 0px 0px 19px #b28756;
+    }
+
     .titulo-price .section-team--name{
         font-size: 30px;
     }
-
-    .section-price ul li{
-        font-size: 30px;
+    .titulo-price .section-team--role{
+        font-size: 20px;
     }
-
+    .section-price ul li{
+        font-size: 19px;
+    }
+    .frent .section-team--role {
+        font-size: 18px;
+    }
     .frent .section-team--name{
-        font-size: 25px;
+        font-size: 20px;
     }
     .section-team--name.valor {
-        font-size: 45px;
+        font-size:25px;
     }
 
 
+    .section-pemium .titulo{
+        font-size: 30px;
+    }
+    .section-pemium .section-team--role {
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .conteudo-premium .img-premium img{
+        margin-left: -100px;
+        width: 200px;
+    }
+
+    .section-team--name {
+        font-size: 23px;
+    }
+    .texto-livros {
+        font-size: 20px;
+        margin-right: 10px;
+        
+    }
+
+    .borda-botton-area-primium {
+        border: 1px solid #CCC;
+        width: 80%;
+    }
 }
