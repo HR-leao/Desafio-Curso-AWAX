@@ -36,6 +36,10 @@ header {
     border-radius: 40px;
 }
 
+.menu-opener {
+    display: none;
+}
+
 .menu {
     flex: 1;
     display: flex;
@@ -68,6 +72,8 @@ header {
     border-bottom: 5px solid #b28756;
     color: #CCC;
 }
+
+
 
 .button {
     display: inline-block;
@@ -1075,10 +1081,43 @@ CSS DE ÁREAS ESPECÍFICAS
     cursor: pointer;
 }
 
-/*RESPONSIVIDADE MENU*/
+/*RESPONSIVIDADE*/
 
 @media (min-width:450px ) and (max-width:800px) {
+
+    .logo {
+        margin-left: 30px;
+    }
+
+    .menu-opener {
+        width: 45px;
+        margin-right: 30px;
+        display: block;
+    }
+
     nav {
         display: none;
+        position: absolute;
+        z-index: 99;
+        background-color: rgba(0, 0, 0, 0.9);
+        width: 70vw;
+        top: 100px;
+        right: 0;
     }   
+    .menu ul {
+        flex-direction: column;
+    }
+
+    .menu li a {
+        font-weight: bold;
+        height: 80px;
+        font-size: 27px;
+        margin-left: 50px;
+        border: 0;
+    }
+
+    .menu li.active a{
+        border: 0;
+        color: #b28756;
+    }
 }
