@@ -535,11 +535,14 @@ CSS DE ÁREAS ESPECÍFICAS
     display: flex;
     border-top:  2px solid #EEE;
     border-bottom: 2px solid #EEE;
-    width: 100vw;
+    min-width: 100%;
     justify-content: space-evenly;
     margin-top: 50px;
     padding: 50px;
+    ;
 }
+
+
 
 .happy-clients .empresas div{
     margin-right: 30px;
@@ -658,11 +661,17 @@ CSS DE ÁREAS ESPECÍFICAS
 .texto-livros {
     margin-left: 41px;
     font-weight: 400;
-    color: #999;
+    color: #bebdbe;
+    font-weight: bold;
+    line-height: 35px;
 }
 .img-premium {
     margin-top: 40px;
+    
 }
+
+
+
 .textos-premium ul li {
     list-style: none;
 
@@ -1076,7 +1085,11 @@ CSS DE ÁREAS ESPECÍFICAS
 
 .form-footer .button {
     cursor: pointer;
+    margin-bottom: 30px;
+   
 }
+
+
 
 /*RESPONSIVIDADE*/
 
@@ -1169,8 +1182,9 @@ CSS DE ÁREAS ESPECÍFICAS
 
     .empresas {
         display: flex;
-        flex-direction: column;
         align-items: center;
+        flex-wrap: wrap;
+        
         
 
     }
@@ -1181,8 +1195,9 @@ CSS DE ÁREAS ESPECÍFICAS
 
     }   
     .empresas img {
-        width: 150px;
+        min-width: 50%;
         box-shadow: 0px 0px 19px #b28756;
+        
         
     }
 
@@ -1291,6 +1306,97 @@ CSS DE ÁREAS ESPECÍFICAS
     #compartilhar {
         margin-left: 15px;
     }
+
+    
+
+
+
+
+
+
+
+    .area-contato .section-title
+    {
+        font-size: 28px;
+    }
+    .area-contato .section-desc {
+        font-size: 17px;
+        
+       
+    }
+
+    .area-contato input::placeholder {
+        font-size: 15px;
+        
+    }
+    .area-contato input {
+        height: 30px;
+        padding-bottom: 0px;
+        border-bottom: 2px solid #CCC;
+        
+    }
+
+    .area-contato .button {
+        font-size: 17px;
+    }
+
+
+
+
+    .textos-premium img {
+        width: 30px;
+    }
+
+  .frentt {
+    float: right;
+    padding-top: 0px;
+    font-size: 18px;
+    line-height: 20px;
+    width: 55%;
+  }
+
+  .overlay {
+    background-color: rgba(0, 0, 0, 0);
+    
+  }
+  
+  .container-overlay .overlay:first-of-type {
+    padding-top: 0px;
+}
+
+    .container-overlay {
+        width: 50%;
+        height: 300px;
+        margin-left: 10px;
+        background-size: 200%;
+    }
+
+    .correio img {
+        width: 45px;
+        height: 46px;
+        padding: 10px;
+    }
+
+    .empresas div {
+        min-width: 30%;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+
+    .form-footer {
+        margin-right: 10px;
+    }
+
+
+    .form-footer,.texto-footer {
+        height: 150px;
+    }
+
+    .container-footer:first-of-type {
+        margin-left: 10px;
+    }
+     
 
     
 }   
