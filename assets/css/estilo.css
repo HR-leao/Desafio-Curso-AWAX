@@ -1082,16 +1082,19 @@ CSS DE ÁREAS ESPECÍFICAS
 #eu {
     color: #fff;
 }
-
+.form-footer {
+    padding-top: 30px;
+}
 .form-footer .button {
     cursor: pointer;
     margin-bottom: 30px;
+    
    
 }
 
 
 
-/*RESPONSIVIDADE*/
+/*RESPONSIVIDADE - TABLET*/
 
 @media (min-width:450px ) and (max-width:800px) {
 
