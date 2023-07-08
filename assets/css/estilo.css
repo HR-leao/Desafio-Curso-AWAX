@@ -898,6 +898,7 @@ CSS DE ÁREAS ESPECÍFICAS
     width: 100vw;
     padding-left: calc(100px);
     padding-bottom: 30px;
+   
 }
 
 .container-overlay .overlay:first-of-type{
@@ -957,7 +958,7 @@ CSS DE ÁREAS ESPECÍFICAS
     padding-top: 0px;
 }
 .dark .footer {
-    margin-top: 0px;
+    
 }
 
 
@@ -1396,10 +1397,364 @@ CSS DE ÁREAS ESPECÍFICAS
         height: 150px;
     }
 
+
     .container-footer:first-of-type {
         margin-left: 10px;
     }
      
 
     
+}   
+
+
+
+
+/*RESPONSIVIDADE CELULAR*/
+@media (max-width:450px ) {
+
+    footer {
+        margin-top: 300px;
+        position: absolute;
+        height: 700px;
+    }
+
+    .logo {
+        margin-left: 30px;
+    }
+
+    .menu-opener {
+        width: 45px;
+        margin-right: 30px;
+        display: block;
+    }
+
+    nav {
+        display: none;
+        position: absolute;
+        z-index: 99;
+        background-color: rgba(0, 0, 0, 0.9);
+        width: 80vw;
+        top: 100px;
+        right: 0;
+    }   
+    .menu ul {
+        flex-direction: column;
+    }
+
+    .menu li a {
+        font-weight: bold;
+        height: 60px;
+        font-size: 20px;
+        margin-left: 30px;
+        border: 0;
+    }
+
+    .menu li.active a{
+        border: 0;
+        color: #b28756;
+    }
+
+    .banner h1 {
+        font-size: 30px;
+    }
+
+    .banner h2 {
+        font-size: 17px;
+    }
+
+
+    .section-aboutus {
+        flex-direction: column;
+    }
+
+    .section-aboutus--left {
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-bottom: 30px;
+    }
+    .section-aboutus--right {
+        width: auto;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .section-aboutus--right img {
+        width: 100%;
+    }
+    .section-services {
+        flex-wrap: wrap;
+        
+    }
+
+    .section-service {
+        min-width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .section-service:first-child {
+        border-left: 0;
+    }
+
+  
+
+    .section-projects--filters {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .section-projects--photo {
+        width: 320px;
+    }
+
+    .section-projects--photoarea {
+        width: 300px;
+        height: 190px;
+    }
+
+    .section-team {
+        max-width: 280px;
+    }
+
+    .frent {
+        min-width: 50%;
+        height: auto;
+        margin-bottom: 30px;
+        
+    }
+
+    .happy-clients .section-team--name {
+        font-size: 30px;
+    }
+    .happy-clients .h33 {
+        font-size: 20px;
+    }
+    .happy-clients p{
+        font-size: 18px;
+    }
+
+    .empresas {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        
+        
+
+    }
+
+    .empresas div {
+        margin-bottom: 30px;
+        
+
+    }   
+    .empresas img {
+        min-width: 50%;
+        box-shadow: 0px 0px 19px #b28756;
+        
+        
+    }
+
+    .titulo-price .section-team--name{
+        font-size: 30px;
+    }
+    .titulo-price .section-team--role{
+        font-size: 20px;
+    }
+    .section-price ul li{
+        font-size: 19px;
+    }
+    .frent .section-team--role {
+        font-size: 18px;
+    }
+    .frent .section-team--name{
+        font-size: 20px;
+    }
+    .section-team--name.valor {
+        font-size:25px;
+    }
+
+
+    .section-pemium .titulo{
+        font-size: 30px;
+    }
+    .section-pemium .section-team--role {
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .conteudo-premium .img-premium img{
+        margin-left: -100px;
+        width: 200px;
+    }
+
+    .section-team--name {
+        font-size: 23px;
+    }
+    .texto-livros {
+        font-size: 20px;
+        margin-right: 10px;
+        
+    }
+
+    .borda-botton-area-primium {
+        border: 1px solid #CCC;
+        width: 80%;
+    }
+    .numeros-facts .alinha-facts{
+        margin-bottom: 30px;
+    }
+
+    .cabeca-valores .section-title {
+        font-size: 30px;
+    }
+
+    .cabeca-valores .sub {
+        font-size: 20px;
+    }
+
+    .numeros-facts{
+        flex-direction: column;
+    }
+    .numero-laranja{
+        font-size: 90px;
+    }
+
+    .barrinha {
+        width: 50px;
+    }
+
+    .alinha-facts .section-title {
+        font-size: 18px;
+    }
+    
+    .alinha-facts .sub-facts {
+        font-size: 20px;
+    }
+
+
+
+    .areasociais {
+        font-size: 17px;
+        font-weight: bold;
+        color: #999;
+    }
+
+    .redes-sociais .areasociais img{
+        width: 45px;
+        height: 45px;
+        
+        
+    }
+    .redes #twitter,
+    #linkedin,
+    #facebook,
+    #googleplus,
+    #pinterest,
+    #comrartilhar{
+       width:35px;
+       height: 35px;
+       border-radius: 50px;
+       
+    }
+    #compartilhar {
+        margin-left: 15px;
+    }
+
+    
+
+
+
+
+
+
+
+    .area-contato .section-title
+    {
+        font-size: 28px;
+    }
+    .area-contato .section-desc {
+        font-size: 17px;
+        
+       
+    }
+
+    .area-contato input::placeholder {
+        font-size: 15px;
+        
+    }
+    .area-contato input {
+        height: 30px;
+        padding-bottom: 0px;
+        border-bottom: 2px solid #CCC;
+        
+    }
+
+    .area-contato .button {
+        font-size: 17px;
+    }
+
+
+
+
+    .textos-premium img {
+        width: 30px;
+    }
+
+  .frentt {
+    position: absolute;
+    background-color: #fff;
+    margin-top: 30px;
+    padding-bottom: 100px;
+    width: 100%;
+    margin-left: -100px;
+    padding-bottom: 350px;
+    
+   
+  }
+
+  .overlay {
+    background-color: rgba(0, 0, 0, 0);
+    
+  }
+  
+  .container-overlay .overlay:first-of-type {
+    padding-top: 270px;
+    
+}
+
+
+
+    .correio img {
+        width: 45px;
+        height: 46px;
+        padding: 10px;
+    }
+
+    .empresas div {
+        min-width: 30%;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+
+    .form-footer {
+        margin-right: 10px;
+    }
+
+    .container-footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .form-footer,.texto-footer {
+        height: 150px;
+    }
+
+    .container-footer:first-of-type {
+        margin-left: 10px;
+    }
+     
+
+    .redes-footer {
+
+    }
 }   
