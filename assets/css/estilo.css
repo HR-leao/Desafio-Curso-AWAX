@@ -1645,7 +1645,7 @@ CSS DE ÁREAS ESPECÍFICAS
         max-width: 300px;
         padding: 0px;
         margin: 0px;
-
+        padding-top: 30px;
     }
 
     .redes-sociais .areasociais img{
@@ -1656,7 +1656,12 @@ CSS DE ÁREAS ESPECÍFICAS
         
     }
  
-
+    minha {
+        position: absolute;
+        margin-top: -60px;
+        color: #CCC;
+        font-weight: bold;
+    }
 
     .redes #twitter,
     #linkedin,
@@ -1823,7 +1828,5 @@ CSS DE ÁREAS ESPECÍFICAS
     }
      
 
-    .redes-footer {
 
-    }
 }   
