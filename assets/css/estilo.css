@@ -1415,7 +1415,7 @@ CSS DE ÁREAS ESPECÍFICAS
     footer {
         margin-top: 300px;
         position: absolute;
-        height: 700px;
+        height: 780px;
     }
 
     .logo {
@@ -1574,15 +1574,19 @@ CSS DE ÁREAS ESPECÍFICAS
 
 
     .section-pemium .titulo{
-        font-size: 30px;
+        font-size: 24px;
     }
     .section-pemium .section-team--role {
-        font-size: 20px;
+        font-size: 18px;
         font-weight: bold;
     }
-
+    .conteudo-premium {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
     .conteudo-premium .img-premium img{
-        margin-left: -100px;
+        margin-left: -150px;
         width: 200px;
     }
 
@@ -1595,6 +1599,7 @@ CSS DE ÁREAS ESPECÍFICAS
         
     }
 
+
     .borda-botton-area-primium {
         border: 1px solid #CCC;
         width: 80%;
@@ -1604,22 +1609,22 @@ CSS DE ÁREAS ESPECÍFICAS
     }
 
     .cabeca-valores .section-title {
-        font-size: 30px;
+        font-size: 19px;
     }
 
     .cabeca-valores .sub {
-        font-size: 20px;
+        font-size: 12px;
     }
 
     .numeros-facts{
         flex-direction: column;
     }
     .numero-laranja{
-        font-size: 90px;
+        font-size: 50px;
     }
 
     .barrinha {
-        width: 50px;
+        width: 30px;
     }
 
     .alinha-facts .section-title {
@@ -1633,34 +1638,48 @@ CSS DE ÁREAS ESPECÍFICAS
 
 
     .areasociais {
-        font-size: 17px;
-        font-weight: bold;
+        font-size: 10px;
+       display: flex;
+       flex-direction: column;
         color: #999;
+        max-width: 300px;
+        padding: 0px;
+        margin: 0px;
+
     }
 
     .redes-sociais .areasociais img{
-        width: 45px;
-        height: 45px;
+        width: 25px;
+        height: 25px;
+        
         
         
     }
+ 
+
+
     .redes #twitter,
     #linkedin,
     #facebook,
     #googleplus,
     #pinterest,
     #comrartilhar{
-       width:35px;
-       height: 35px;
+       width:25px;
+       height: 25px;
        border-radius: 50px;
+       margin-right: 0px;
+       margin-bottom: 5px;
        
     }
+
+
     #compartilhar {
-        margin-left: 15px;
+        display: none;
+        
     }
-
-    
-
+     .tt {
+        display: none;
+    }
 
 
 
@@ -1736,13 +1755,63 @@ CSS DE ÁREAS ESPECÍFICAS
         justify-content: center;
     }
 
+
     .form-footer {
         margin-right: 10px;
+        order: 1;
+        width: 300px;
+        margin-bottom: 30px;
     }
 
+    .teste {
+        order: 2;
+        margin-bottom: 30px;
+    }
+
+    .texto-footer {
+        order: 3;
+        margin-right: 30px;
+        text-align: center;
+    }
+    .texto-livros {
+        font-size: 15px;
+        font-weight: normal;
+        padding-left: 10px;
+        
+        
+    }
+    .textos-premium {
+        max-width: 300px;
+    }
+    .borda-botton-area-primium {
+        margin:auto;
+        margin-bottom: 50px;
+        
+    }
+    .conteudo-premium .section-team--name {
+        text-align: start;
+        font-size: 20px;
+    }
+
+    #eu {
+        margin-top: 30px;
+        order: 4;
+    }
+
+   
     .container-footer {
         display: flex;
         flex-direction: column;
+        align-items: center;
+        
+    }
+ 
+    .conteudo-premium {
+        margin: 0;
+      
+    }
+    .img-premium {
+        margin-left: 150px;
     }
 
     .form-footer,.texto-footer {
