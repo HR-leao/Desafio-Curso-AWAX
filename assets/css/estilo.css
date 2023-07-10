@@ -1689,14 +1689,18 @@ CSS DE ÁREAS ESPECÍFICAS
 
 
 
-
+    .nome-email.primeira {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
 
     .area-contato .section-title
     {
-        font-size: 28px;
+        font-size: 19px;
     }
     .area-contato .section-desc {
-        font-size: 17px;
+        font-size: 13px;
         
        
     }
@@ -1709,8 +1713,10 @@ CSS DE ÁREAS ESPECÍFICAS
         height: 30px;
         padding-bottom: 0px;
         border-bottom: 2px solid #CCC;
+        max-width: 290px;
         
     }
+
 
     .area-contato .button {
         font-size: 17px;
