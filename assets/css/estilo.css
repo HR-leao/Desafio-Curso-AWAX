@@ -845,18 +845,18 @@ CSS DE ÁREAS ESPECÍFICAS
     border-right: none;
     border-bottom: 2px solid #b2b2b2;
     padding-bottom: 10px;
-    width: 350px;
+    width: 250px;
     
 }
 
  .message input {
     margin-top: 100px;
-    width: 725px;
+    width: 528px;
 }
 
 
 .object input {
-    width: 725px;
+    width: 528px;
     margin-top: 35px;
 }
 .nameima input::placeholder {
@@ -1598,11 +1598,14 @@ CSS DE ÁREAS ESPECÍFICAS
         margin-right: 10px;
         
     }
-
+    .texto-livros:last-of-type {
+        margin-bottom: 30px;
+    }
 
     .borda-botton-area-primium {
         border: 1px solid #CCC;
         width: 80%;
+        
     }
     .numeros-facts .alinha-facts{
         margin-bottom: 30px;
@@ -1624,7 +1627,7 @@ CSS DE ÁREAS ESPECÍFICAS
     }
 
     .barrinha {
-        width: 30px;
+        width: 20px;
     }
 
     .alinha-facts .section-title {
@@ -1693,6 +1696,7 @@ CSS DE ÁREAS ESPECÍFICAS
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
+        
     }
 
     .area-contato .section-title
@@ -1704,20 +1708,27 @@ CSS DE ÁREAS ESPECÍFICAS
         
        
     }
+    .nameima input {
+        width: 390px;
+    }
 
     .area-contato input::placeholder {
-        font-size: 15px;
+        font-size: 13px;
+        
         
     }
     .area-contato input {
         height: 30px;
         padding-bottom: 0px;
         border-bottom: 2px solid #CCC;
-        max-width: 290px;
+        max-width: 390px;
         
     }
-
-
+    .primeira div:nth-child(1) {
+        
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
     .area-contato .button {
         font-size: 17px;
     }
